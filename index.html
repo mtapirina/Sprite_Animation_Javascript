@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sprite Animation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link href="css/style.css" rel="stylesheet">
+        <link type="image/x-icon" href="./favicon.ico" rel="shortcut icon">
+
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Анимация спрайтов на JavaScript</h1>
+
+        <!-- 1 -->
+        <section id="shadow_dog">
+            <h2>Теневой пёс</h2>
+            <div class="canvas_container">
+                <canvas id="canvas1" class="canvas" width="600" height="600"></canvas>
+            </div>
+
+            <div class="controls">
+                <label for="animations">Выбрать анимацию</label>
+                <br>
+                <br>
+                <select name="animations" id="animations">
+                    <option value="idle">Idle - Состояние покоя</option>
+                    <option value="jump">Jump - Прыжок!</option>
+                    <option value="fall">Fall - Падение</option>
+                    <option value="run">Run - Бежать!</option>
+                    <option value="dizzy">Dizzy - В шоке</option>
+                    <option value="sit">Sit - Сидеть!</option>
+                    <option value="roll">Roll - Катиться!</option>
+                    <option value="bite">Bite - Кусается</option>
+                    <option value="ko">Ko - Умирает</option>
+                    <option value="getHit">Get Hit - Получила удар </option>
+                </select>
+            </div>
+           
+            <div class="description">
+                    <h3>❤ Ссылки по теме ❤</h3>
+                    Выполнено по уроку "Анимация Спрайтов" на youtube канале
+                    <a href="https://www.youtube.com/@Frankslaboratory">Franks laboratory </a>
+                    <p>Лист спрайтов теневой собаки используется только в учебных целях. Сайт художника: <a href="https://bevouliin.com/ ">Bevouliin</a></p>
+                
+            </div>
+
+        </section>
+        
+    <!-- Script -->
+     <script src="./script/sprite_anim.js"></script>
+    </body>
+</html>

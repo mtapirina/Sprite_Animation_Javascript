@@ -1,0 +1,51 @@
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+  }
+  h1, label{
+    text-align: center;
+    color: rgb(220, 88, 16);
+    font-weight: 600 ;
+  }
+   h2, h3, h4{
+    text-align: center;
+    color: rgb(139, 81, 231);
+  }
+  p{
+    text-indent: 2rem;
+  }
+  .controls, select, option{
+    font-size: 1.3rem;
+  }
+  body {
+    
+    background-color: beige;
+  } 
+  
+  section{
+    width: 100%;
+    margin:10% auto ;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 10%;
+  }
+
+
+  #canvas1, #canvas2{
+    width: 100%;
+  }
+  .canvas_container{
+    width: 50%;
+    max-width: 400px;
+    margin:  5% auto ;
+  }
+
+  .description{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .controls{
+    text-align: center;
+    
+  }
