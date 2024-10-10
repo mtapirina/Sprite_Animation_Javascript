@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Paralax Backgrounds</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link href="css/style.css" rel="stylesheet">
+        <link type="image/x-icon" href="./favicon.ico" rel="shortcut icon">
+
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Параллакс эффект на JavaScript</h1>
+        <!-- 1 -->
+        <section id="bg1">
+            
+            <h2>Анимация заднего фона для игры</h2>
+            <div class="canvas_container">
+                <canvas id="canvas1" class="canvas" width="800" height="700"></canvas>
+            </div>
+
+            <div class="controls">
+                
+                <h5>Сорость игры: <span id="showGameSpeed"></span></h5>
+
+                <input type="range" min="0" max="20" value="3" class="slider" id="slider">
+                
+            </div>
+           
+            <div class="description">
+                <h3>❤ Ссылки по теме ❤</h3>
+                <a href="index.html"><span>Теневой пёс - Анимация спрайтов</span></a>
+                <br>
+                <br>
+                    <p> Выполнено по урокам <strong>"JavaScript Game Development Masterclass 2022"</strong> на youtube канале
+                    <a href="https://www.youtube.com/@Frankslaboratory">Franks laboratory </a>
+                    Слои для этого анимированного фона используется только в учебных целях. Сайт художника: <a href="https://bevouliin.com/ ">Bevouliin</a></p>
+                
+            </div>
+
+        </section>
+        
+    <!-- Script -->
+     <script src="./script/parallax_bg.js"></script>
+    </body>
+</html>
