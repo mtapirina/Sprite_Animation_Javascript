@@ -5,12 +5,12 @@
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
   }
-  h1, label, span{ 
+  h1, label, span{
     text-align: center;
     color: rgb(220, 88, 16);
     font-weight: 600 ;
   }
-   h2, h3, h4, a{
+   h2, h3, h4{
     text-align: center;
     color: rgb(107, 66, 171);
   }
