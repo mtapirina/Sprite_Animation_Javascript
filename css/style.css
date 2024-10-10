@@ -1,51 +1,55 @@
 
 * {
+  margin: 0;
+  padding: 0;
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
   }
-  h1, label{
+  h1, label, span{ 
     text-align: center;
     color: rgb(220, 88, 16);
     font-weight: 600 ;
   }
-   h2, h3, h4{
+   h2, h3, h4, a{
     text-align: center;
-    color: rgb(139, 81, 231);
+    color: rgb(107, 66, 171);
   }
   p{
     text-indent: 2rem;
   }
   .controls, select, option{
     font-size: 1.3rem;
+    margin-bottom: 2rem;;
   }
   body {
-    
+    margin-top: 3rem;
     background-color: beige;
   } 
   
   section{
     width: 100%;
-    margin:10% auto ;
+    margin:2% auto ;
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 0 10%;
   }
 
 
-  #canvas1, #canvas2{
+  #canvas1{
     width: 100%;
-  }
-  .canvas_container{
-    width: 50%;
-    max-width: 400px;
-    margin:  5% auto ;
+    margin-bottom: -5px;
+    margin-right: -2px;
+    border: 4px solid rgb(220, 88, 16);
   }
 
-  .description{
-    max-width: 500px;
-    margin: 0 auto;
+
+  .canvas_container, .description, .slider {
+    width: 75%;
+    max-width: 800px;
+    margin:  2% auto ;
   }
+
   .controls{
     text-align: center;
-    
   }
+  
