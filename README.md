@@ -12,7 +12,7 @@ https://mtapirina.github.io/Sprite_Animation_Javascript/
 * You can select dog's behavior from the drop-down menu.
 
 
-## (parallax.html) Параллакс эффект - Parallax 
+## (parallax.html) Параллакс эффект - Parallax background
 * Слайдер ускоряет или замедляет скорость фона.
 * The slider speeds up or slows down the speed of the background.
 
